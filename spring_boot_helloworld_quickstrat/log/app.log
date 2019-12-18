@@ -1,0 +1,20 @@
+2019-12-02 23:08:55.846  INFO 4104 --- [main] BootHelloworldQuickstratApplicationTests : Starting SpringBootHelloworldQuickstratApplicationTests on pc1 with PID 4104 (started by Wrysunny in H:\CODE\Code_Home\spring_boot_helloworld_quickstrat)
+2019-12-02 23:08:55.846 DEBUG 4104 --- [main] BootHelloworldQuickstratApplicationTests : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-02 23:08:55.846  INFO 4104 --- [main] BootHelloworldQuickstratApplicationTests : The following profiles are active: person
+2019-12-02 23:08:57.939  INFO 4104 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-02 23:08:58.303  INFO 4104 --- [main] BootHelloworldQuickstratApplicationTests : Started SpringBootHelloworldQuickstratApplicationTests in 3.152 seconds (JVM running for 4.429)
+2019-12-02 23:08:58.709 DEBUG 4104 --- [main] BootHelloworldQuickstratApplicationTests : debug 日志
+2019-12-02 23:08:58.709  INFO 4104 --- [main] BootHelloworldQuickstratApplicationTests : info 日志
+2019-12-02 23:08:58.709  WARN 4104 --- [main] BootHelloworldQuickstratApplicationTests : warn 日志
+2019-12-02 23:08:58.709 ERROR 4104 --- [main] BootHelloworldQuickstratApplicationTests : error 日志
+2019-12-02 23:08:58.727  INFO 4104 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-12-02 23:09:49.970  INFO 16900 --- [main] BootHelloworldQuickstratApplicationTests : Starting SpringBootHelloworldQuickstratApplicationTests on pc1 with PID 16900 (started by Wrysunny in H:\CODE\Code_Home\spring_boot_helloworld_quickstrat)
+2019-12-02 23:09:49.970 DEBUG 16900 --- [main] BootHelloworldQuickstratApplicationTests : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-02 23:09:49.970  INFO 16900 --- [main] BootHelloworldQuickstratApplicationTests : The following profiles are active: person
+2019-12-02 23:09:52.226  INFO 16900 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-02 23:09:52.581  INFO 16900 --- [main] BootHelloworldQuickstratApplicationTests : Started SpringBootHelloworldQuickstratApplicationTests in 3.28 seconds (JVM running for 4.551)
+2019-12-02 23:09:53.044 DEBUG 16900 --- [main] BootHelloworldQuickstratApplicationTests : debug 日志
+2019-12-02 23:09:53.044  INFO 16900 --- [main] BootHelloworldQuickstratApplicationTests : info 日志
+2019-12-02 23:09:53.044  WARN 16900 --- [main] BootHelloworldQuickstratApplicationTests : warn 日志
+2019-12-02 23:09:53.044 ERROR 16900 --- [main] BootHelloworldQuickstratApplicationTests : error 日志
+2019-12-02 23:09:53.082  INFO 16900 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

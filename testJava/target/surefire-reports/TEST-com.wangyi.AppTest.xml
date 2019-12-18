@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.wangyi.AppTest" time="0.065" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="9"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="H:\CODE\Code_Home\testJava\target\test-classes;H:\CODE\Code_Home\testJava\target\classes;G:\maven\LocalWarehouse\junit\junit\4.11\junit-4.11.jar;G:\maven\LocalWarehouse\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="GMT+08:00"/>
+    <property name="java.vm.specification.version" value="9"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-9.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\wy292\AppData\Local\Temp\surefire2726215696546820470\surefirebooter11839403538520564730.jar C:\Users\wy292\AppData\Local\Temp\surefire2726215696546820470 2019-11-22T17-08-47_508-jvmRun1 surefire4134756823750720097tmp surefire_06543019942507329244tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="H:\CODE\Code_Home\testJava\target\test-classes;H:\CODE\Code_Home\testJava\target\classes;G:\maven\LocalWarehouse\junit\junit\4.11\junit-4.11.jar;G:\maven\LocalWarehouse\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\wy292"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-9.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="H:\CODE\Code_Home\testJava"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\wy292\AppData\Local\Temp\surefire2726215696546820470\surefirebooter11839403538520564730.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="9.0.1+11"/>
+    <property name="user.name" value="Wrysunny"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="G:\maven\LocalWarehouse"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\wy292\AppData\Local\Temp\"/>
+    <property name="java.version" value="9.0.1"/>
+    <property name="user.dir" value="H:\CODE\Code_Home\testJava"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-9.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\wy292\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\191.8026.42\jre64\\bin;C:\Users\wy292\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\191.8026.42\jre64\\bin\server;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;&quot;C:\WINDOWS\System32\OpenSSH\;G:\JDK10\bin;G:\JDK10\jre\bin;&quot;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\apache-tomcat-8.0.50\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;G:\JAVA\jdk10\bin;&quot;G:\SDK;ANDROID_HOME%\tools;G:\SDK\build-tools;G:\SDK\platform-tools;&quot;;C:\Program Files (x86)\Common Files\Thunder Network\KanKan\Codecs;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Intel\Phone Flash Tool;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;G:\maven\apache-maven-3.6.1\bin;&quot;G:\JAVA\jdk8\bin;G:\JAVA\jdk8\jre\bin;&quot;;G:\Git\bin;C:\Program Files (x86)\Redis;C:\Program Files (x86)\VisualSVN Server\bin;C:\Users\wy292\AppData\Local\Microsoft\WindowsApps;G:\Program Files\MySQL\MySQL Server 8.0\bin;G:\MinGW\bin;;."/>
+    <property name="idea.version2019.1.4" value="true"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="9.0.1+11"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="53.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.wangyi.AppTest" time="0.003"/>
+</testsuite>

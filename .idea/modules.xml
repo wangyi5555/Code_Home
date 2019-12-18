@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/helloworld_quickstart/helloworld_quickstart.iml" filepath="$PROJECT_DIR$/helloworld_quickstart/helloworld_quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-web-test1/spring-boot-web-test1.iml" filepath="$PROJECT_DIR$/spring-boot-web-test1/spring-boot-web-test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_boot_helloworld_quickstrat/spring_boot_helloworld_quickstrat.iml" filepath="$PROJECT_DIR$/spring_boot_helloworld_quickstrat/spring_boot_helloworld_quickstrat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test1/test1.iml" filepath="$PROJECT_DIR$/test1/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testJava/testJava.iml" filepath="$PROJECT_DIR$/testJava/testJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testShiro/testShiro.iml" filepath="$PROJECT_DIR$/testShiro/testShiro.iml" />
+    </modules>
+  </component>
+</project>

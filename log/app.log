@@ -1,0 +1,71 @@
+2019-12-06 15:24:47.171  INFO 4008 --- [main] pringBootHelloworldQuickstratApplication : Starting SpringBootHelloworldQuickstratApplication on pc1 with PID 4008 (H:\CODE\Code_Home\spring_boot_helloworld_quickstrat\target\classes started by Wrysunny in H:\CODE\Code_Home)
+2019-12-06 15:24:47.174 DEBUG 4008 --- [main] pringBootHelloworldQuickstratApplication : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-06 15:24:47.174  INFO 4008 --- [main] pringBootHelloworldQuickstratApplication : The following profiles are active: person
+2019-12-06 15:24:48.961  INFO 4008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-06 15:24:48.977  INFO 4008 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-06 15:24:48.978  INFO 4008 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-06 15:24:49.080  INFO 4008 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-06 15:24:49.080  INFO 4008 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1813 ms
+2019-12-06 15:24:49.546  INFO 4008 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-06 15:24:49.900  INFO 4008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-06 15:24:49.904  INFO 4008 --- [main] pringBootHelloworldQuickstratApplication : Started SpringBootHelloworldQuickstratApplication in 4.827 seconds (JVM running for 6.926)
+2019-12-06 15:25:21.435  INFO 18664 --- [main] pringBootHelloworldQuickstratApplication : Starting SpringBootHelloworldQuickstratApplication on pc1 with PID 18664 (H:\CODE\Code_Home\spring_boot_helloworld_quickstrat\target\classes started by Wrysunny in H:\CODE\Code_Home)
+2019-12-06 15:25:21.440 DEBUG 18664 --- [main] pringBootHelloworldQuickstratApplication : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-06 15:25:21.441  INFO 18664 --- [main] pringBootHelloworldQuickstratApplication : The following profiles are active: person
+2019-12-06 15:25:23.828  INFO 18664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-06 15:25:23.840  INFO 18664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-06 15:25:23.841  INFO 18664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-06 15:25:23.948  INFO 18664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-06 15:25:23.948  INFO 18664 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2342 ms
+2019-12-06 15:25:24.387  INFO 18664 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-06 15:25:24.488  INFO 18664 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-12-06 15:25:24.619  INFO 18664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-06 15:25:24.624  INFO 18664 --- [main] pringBootHelloworldQuickstratApplication : Started SpringBootHelloworldQuickstratApplication in 4.132 seconds (JVM running for 5.606)
+2019-12-06 15:25:29.419  INFO 18664 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-06 15:25:29.420  INFO 18664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-06 15:25:29.449  INFO 18664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
+2019-12-06 15:25:50.913  INFO 19980 --- [main] pringBootHelloworldQuickstratApplication : Starting SpringBootHelloworldQuickstratApplication on pc1 with PID 19980 (H:\CODE\Code_Home\spring_boot_helloworld_quickstrat\target\classes started by Wrysunny in H:\CODE\Code_Home)
+2019-12-06 15:25:50.915 DEBUG 19980 --- [main] pringBootHelloworldQuickstratApplication : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-06 15:25:50.916  INFO 19980 --- [main] pringBootHelloworldQuickstratApplication : The following profiles are active: person
+2019-12-06 15:25:52.511  INFO 19980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-06 15:25:52.525  INFO 19980 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-06 15:25:52.525  INFO 19980 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-06 15:25:52.650  INFO 19980 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-06 15:25:52.650  INFO 19980 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1687 ms
+2019-12-06 15:25:53.034  INFO 19980 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-06 15:25:53.089  INFO 19980 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2019-12-06 15:25:53.205  INFO 19980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-06 15:25:53.205  INFO 19980 --- [main] pringBootHelloworldQuickstratApplication : Started SpringBootHelloworldQuickstratApplication in 2.748 seconds (JVM running for 4.073)
+2019-12-06 15:26:08.615  INFO 19980 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-06 15:26:08.615  INFO 19980 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-06 15:26:08.620  INFO 19980 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-12-06 15:27:51.575  INFO 18236 --- [main] pringBootHelloworldQuickstratApplication : Starting SpringBootHelloworldQuickstratApplication on pc1 with PID 18236 (H:\CODE\Code_Home\spring_boot_helloworld_quickstrat\target\classes started by Wrysunny in H:\CODE\Code_Home)
+2019-12-06 15:27:51.575 DEBUG 18236 --- [main] pringBootHelloworldQuickstratApplication : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-06 15:27:51.575  INFO 18236 --- [main] pringBootHelloworldQuickstratApplication : The following profiles are active: person
+2019-12-06 15:27:52.547  INFO 18236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-06 15:27:52.562  INFO 18236 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-06 15:27:52.562  INFO 18236 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-06 15:27:52.631  INFO 18236 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-06 15:27:52.631  INFO 18236 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1002 ms
+2019-12-06 15:27:52.947  INFO 18236 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-06 15:27:53.010  INFO 18236 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2019-12-06 15:27:53.110  INFO 18236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-06 15:27:53.110  INFO 18236 --- [main] pringBootHelloworldQuickstratApplication : Started SpringBootHelloworldQuickstratApplication in 2.018 seconds (JVM running for 3.183)
+2019-12-06 15:27:58.044  INFO 18236 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-06 15:27:58.044  INFO 18236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-06 15:27:58.052  INFO 18236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-12-06 15:44:09.452  INFO 19036 --- [main] pringBootHelloworldQuickstratApplication : Starting SpringBootHelloworldQuickstratApplication on pc1 with PID 19036 (H:\CODE\Code_Home\spring_boot_helloworld_quickstrat\target\classes started by Wrysunny in H:\CODE\Code_Home)
+2019-12-06 15:44:09.454 DEBUG 19036 --- [main] pringBootHelloworldQuickstratApplication : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-12-06 15:44:09.454  INFO 19036 --- [main] pringBootHelloworldQuickstratApplication : The following profiles are active: person
+2019-12-06 15:44:10.349  INFO 19036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-12-06 15:44:10.349  INFO 19036 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-06 15:44:10.365  INFO 19036 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-12-06 15:44:10.434  INFO 19036 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-06 15:44:10.434  INFO 19036 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 945 ms
+2019-12-06 15:44:10.788  INFO 19036 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-06 15:44:10.851  INFO 19036 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2019-12-06 15:44:10.989  INFO 19036 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-12-06 15:44:11.004  INFO 19036 --- [main] pringBootHelloworldQuickstratApplication : Started SpringBootHelloworldQuickstratApplication in 2.017 seconds (JVM running for 3.17)
+2019-12-06 15:44:15.835  INFO 19036 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-12-06 15:44:15.836  INFO 19036 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-12-06 15:44:15.845  INFO 19036 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms

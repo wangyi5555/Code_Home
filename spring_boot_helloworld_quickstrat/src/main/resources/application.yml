@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    include: person
+#配置项目访问路径
+#server:
+#  servlet:
+#    context-path: /helloworld-1
+logging:
+  level:
+    com.wangyi: debug
+  file:
+    name: 'log/app.log'
+  pattern:
+    console: '%d{yyyy-MM-dd} [%thread] %-5level %logger{50} - %msg%n'
+

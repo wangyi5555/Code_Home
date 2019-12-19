@@ -6,6 +6,19 @@
 </head>
 <body>
 <h1>welcome</h1>
-<img th:src="@{/images/123.png}"/>
+<form method="post" th:action="@{/check}">
+    <label th:text="#{login.name}"></label>
+    <input type="text" name="username">
+    <br>
+    <label th:text="#{login.password}"></label>
+    <input type="text" name="password">
+    <br>
+    <input type="submit" value="确定">
+</form>
+
+<a th:href="@{/index(l='zh_CN')}">中文</a>
+<a th:href="@{/index(l='en_US')}">English</a>
+<!--使用themleaf会自动添加上项目名-->
+<img th:src="@{/asserts/images/123.png}"/>
 </body>
 </html>

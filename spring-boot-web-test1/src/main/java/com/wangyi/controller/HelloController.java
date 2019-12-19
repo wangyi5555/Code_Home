@@ -1,21 +1,29 @@
 package com.wangyi.controller;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestMapping;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.wangyi.common.LogUtils;
+import org.springframework.stereotype.Controller;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.thymeleaf.util.StringUtils;
+
+import javax.servlet.http.HttpSession;
+
 
 @Controller
 public class HelloController {
-    @RequestMapping("/success")
-    public String success(Model model) {
-        List<Integer> list = new ArrayList<>();
-        for(int i = 0;i<10;i++){
-            list.add(i);
+    @PostMapping("/check")
+    public String success(@RequestParam("username") String username,
+                          @RequestParam("password") String password,
+                          HttpSession session) {
+        LogUtils.getLogger().info(username+"------"+password);
+        if (!StringUtils.isEmpty(username) && password.equals("12345")) {
+            session.setAttribute("username", username);
+            session.setAttribute("password", password);
+            return "redirect:/main";
+        }else {
+            return "redirect:/index";
         }
-        model.addAttribute("list", list);
-        return "login/success";
     }
 }

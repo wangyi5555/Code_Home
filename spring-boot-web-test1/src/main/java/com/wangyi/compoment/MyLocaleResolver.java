@@ -3,6 +3,7 @@ package com.wangyi.compoment;
 
 
 
+import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.LocaleResolver;
 import org.thymeleaf.util.StringUtils;
 

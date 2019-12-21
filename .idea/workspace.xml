@@ -6,28 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2f2462e-034d-46c8-bcca-8aa00b5deee3" name="Default Changelist" comment="学习了SpringBoot的国际化设置和拦截器的设置">
-      <change afterPath="$PROJECT_DIR$/spring-boot-web-test1/src/main/java/com/wangyi/common/LogUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-web-test1/src/main/java/com/wangyi/compoment/LoginHandlerInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-web-test1/src/main/java/com/wangyi/compoment/MyLocaleResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-web-test1/src/main/java/com/wangyi/config/MySpringMVCConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-web-test1/src/main/resources/i18n/login.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-web-test1/src/main/resources/i18n/login_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-web-test1/src/main/resources/i18n/login_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-web-test1/src/main/resources/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="e2f2462e-034d-46c8-bcca-8aa00b5deee3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-web-test1/src/main/java/com/wangyi/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-web-test1/src/main/java/com/wangyi/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-web-test1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-web-test1/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-web-test1/src/main/resources/static/images/123.png" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-web-test1/src/main/resources/static/asserts/images/123.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-web-test1/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-web-test1/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-web-test1/src/main/resources/templates/login/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-web-test1/src/main/resources/templates/login/success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-web-test1/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-web-test1/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-web-test1/target/classes/com/wangyi/SpringBootWebTest1Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-web-test1/target/classes/com/wangyi/SpringBootWebTest1Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-web-test1/target/classes/com/wangyi/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-web-test1/target/classes/com/wangyi/controller/HelloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-web-test1/target/classes/static/images/123.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-web-test1/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-web-test1/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-web-test1/target/classes/templates/login/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-web-test1/target/classes/templates/login/success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-web-test1/src/main/java/com/wangyi/compoment/MyLocaleResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-web-test1/src/main/java/com/wangyi/compoment/MyLocaleResolver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -435,7 +416,8 @@
       <workItem from="1576637403157" duration="1105000" />
       <workItem from="1576648540968" duration="1739000" />
       <workItem from="1576651376620" duration="708000" />
-      <workItem from="1576741333992" duration="15145000" />
+      <workItem from="1576741333992" duration="15499000" />
+      <workItem from="1576775747205" duration="1635000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1576638482308</created>
@@ -458,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576651442980</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="学习了SpringBoot的国际化设置和拦截器的设置">
+      <created>1576769734835</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576769734835</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -527,10 +516,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576762137424" />
-    <state x="519" y="25" key="CommitChangelistDialog2" timestamp="1576769636673">
+    <state x="519" y="25" key="CommitChangelistDialog2" timestamp="1576769732032">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="519" y="25" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1576769636673" />
+    <state x="519" y="25" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1576769732032" />
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1576651414357">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -539,38 +528,38 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1212" y="219" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1575882086311" />
-    <state width="1877" height="342" key="GridCell.Tab.0.bottom" timestamp="1576769598332">
+    <state width="1877" height="337" key="GridCell.Tab.0.bottom" timestamp="1576781395977">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="342" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576769598332" />
-    <state width="1877" height="342" key="GridCell.Tab.0.center" timestamp="1576769598332">
+    <state width="1877" height="337" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576781395977" />
+    <state width="1877" height="337" key="GridCell.Tab.0.center" timestamp="1576781395976">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="342" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576769598332" />
-    <state width="1877" height="342" key="GridCell.Tab.0.left" timestamp="1576769598332">
+    <state width="1877" height="337" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576781395976" />
+    <state width="1877" height="337" key="GridCell.Tab.0.left" timestamp="1576781395976">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="342" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576769598332" />
-    <state width="1877" height="342" key="GridCell.Tab.0.right" timestamp="1576769598332">
+    <state width="1877" height="337" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576781395976" />
+    <state width="1877" height="337" key="GridCell.Tab.0.right" timestamp="1576781395977">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="342" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576769598332" />
-    <state width="1877" height="342" key="GridCell.Tab.1.bottom" timestamp="1576769598332">
+    <state width="1877" height="337" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576781395977" />
+    <state width="1877" height="337" key="GridCell.Tab.1.bottom" timestamp="1576781395977">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576769598332" />
-    <state width="1877" height="342" key="GridCell.Tab.1.center" timestamp="1576769598332">
+    <state width="1877" height="337" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1576781395977" />
+    <state width="1877" height="337" key="GridCell.Tab.1.center" timestamp="1576781395977">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="342" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576769598332" />
-    <state width="1877" height="342" key="GridCell.Tab.1.left" timestamp="1576769598332">
+    <state width="1877" height="337" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1576781395977" />
+    <state width="1877" height="337" key="GridCell.Tab.1.left" timestamp="1576781395977">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="342" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576769598332" />
-    <state width="1877" height="342" key="GridCell.Tab.1.right" timestamp="1576769598332">
+    <state width="1877" height="337" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1576781395977" />
+    <state width="1877" height="337" key="GridCell.Tab.1.right" timestamp="1576781395977">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="342" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576769598332" />
+    <state width="1877" height="337" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1576781395977" />
     <state width="916" height="417" key="GridCell.Tab.2.bottom" timestamp="1575362996993">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -691,10 +680,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="800" y="422" key="UiDebugger/0.0.1920.1050@0.0.1920.1050" timestamp="1576757282492" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1576651448149">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1576769742253">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1576651448149" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1576769742253" />
     <state x="92" y="92" width="1736" height="866" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1576650229483">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -711,10 +700,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="700" y="155" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576650271554" />
-    <state width="426" height="191" key="javadoc.popup.new" timestamp="1576768718138">
+    <state width="426" height="191" key="javadoc.popup.new" timestamp="1576780433467">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="426" height="191" key="javadoc.popup.new/0.0.1920.1050@0.0.1920.1050" timestamp="1576768718138" />
+    <state width="426" height="191" key="javadoc.popup.new/0.0.1920.1050@0.0.1920.1050" timestamp="1576780433467" />
     <state x="669" y="224" key="new project wizard" timestamp="1575618575344">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

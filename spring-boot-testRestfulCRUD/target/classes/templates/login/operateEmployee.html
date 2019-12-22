@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="../../static/asserts/css/bootstrap.min.css" th:href="@{/asserts/css/bootstrap.min.css}">
+<link rel="stylesheet" href="../../static/asserts/css/index.css" th:href="@{/asserts/css/index.css}">
+<script src="../../static/asserts/js/jquery-3.4.1.min.js" th:src="@{/asserts/js/jquery-3.4.1.min.js}"></script>
+<script src="../../static/asserts/js/bootstrap.min.js" th:src="@{/asserts/js/bootstrap.min.js}"></script>
+<body>
+<div th:replace="temple/temp::nav(active=employee)"></div>
+<div class="main">
+    <form class="form-horizontal" method="post" th:action="${employee!=null}?@{/employeeManager/updemp}:@{/employeeManager/addemp}">
+
+        <input type="hidden" name="_method" value="PUT" th:if="${employee!=null}">
+        <input type="hidden" name="id" th:if="${employee!=null}" th:value="${employee.getId()}">
+
+        <div class="form-group">
+            <label class="col-md-2 control-label" for="name">name：</label>
+            <div class="col-md-10">
+                <input type="text" class="input-sm form-control" name="name" th:value="${employee!=null}?${employee.name}" id="name">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-2 control-label">sex：</label>
+            <div class="col-md-2">
+                <input type="radio" class="input-sm form-control" name="sex" value="1" th:checked="${employee!=null}?${employee.getSex()==1}">
+            </div>
+            <div class="col-md-2">
+                <label class="control-label">男</label>
+            </div>
+            <div class="col-md-2">
+                <input type="radio" class="input-sm form-control" name="sex" value="0" th:checked="${employee!=null}?${employee.getSex()==0}">
+            </div>
+            <div class="col-md-2">
+                <label class="control-label">女</label>
+            </div>
+
+        </div>
+        <div class="form-group">
+            <label class="col-md-2 control-label" for="birthday">birthday：</label>
+            <div class="col-md-10">
+                <input type="text" class="input-sm form-control" name="birthday" id="birthday" th:value="${employee!=null}?${#dates.format(employee.getBirthday(),'yyyy-MM-dd')}">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-2 control-label">department：</label>
+            <div class="col-md-10">
+                <select class="form-control" name="department">
+                    <option th:each="dept:${department}" th:text="${dept}" th:selected="${employee!=null}?${employee.getDepartment()==dept}">1</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="col-md-2 col-lg-offset-5 btn btn-default btn-sm" th:text="${employee!=null}?'修改':'添加'"></button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

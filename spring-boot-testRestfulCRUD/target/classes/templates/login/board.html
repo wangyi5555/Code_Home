@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="../../static/asserts/css/bootstrap.min.css" th:href="@{/asserts/css/bootstrap.min.css}">
+<link rel="stylesheet" href="../../static/asserts/css/index.css" th:href="@{/asserts/css/index.css}">
+<script src="../../static/asserts/js/jquery-3.4.1.min.js" th:src="@{/asserts/js/jquery-3.4.1.min.js}"></script>
+<script src="../../static/asserts/js/bootstrap.min.js" th:src="@{/asserts/js/bootstrap.min.js}"></script>
+<body>
+<div th:replace="temple/temp::nav(active='board')"></div>
+<div class="main">
+    <h1 class="page-header">hello world</h1>
+</div>
+</body>
+</html>

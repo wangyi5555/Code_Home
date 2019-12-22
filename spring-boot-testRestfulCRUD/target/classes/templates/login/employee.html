@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="../../static/asserts/css/bootstrap.min.css" th:href="@{/asserts/css/bootstrap.min.css}">
+<link rel="stylesheet" href="../../static/asserts/css/index.css" th:href="@{/asserts/css/index.css}">
+<script src="../../static/asserts/js/jquery-3.4.1.min.js" th:src="@{/asserts/js/jquery-3.4.1.min.js}"></script>
+<script src="../../static/asserts/js/bootstrap.min.js" th:src="@{/asserts/js/bootstrap.min.js}"></script>
+<body>
+<div th:replace="temple/temp::nav(active=employee)"></div>
+<div class="main">
+    <h1 class="page-header">员工列表</h1>
+    <a class="btn btn-success btn-sm" th:href="@{/employeeManager/addpage}">添加员工</a>
+    <table class="table table-bordered table-striped table-hover table-condensed">
+        <thead>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>sex</th>
+            <th>birthday</th>
+            <th>department</th>
+            <th>operation</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="empl:${employeelist}">
+            <td th:text="${empl.id}"></td>
+            <td th:text="${empl.name}"></td>
+            <td th:text="${empl.sex==0?'女':'男'}"></td>
+            <td th:text="${#dates.format(empl.birthday,'yyyy-MM-dd')}"></td>
+            <td th:text="${empl.department}"></td>
+            <td>
+                <a class="btn btn-sm btn-success" th:href="@{/employeeManager/updatepage/}+${empl.id}">修改</a>
+                <a class="btn btn-sm btn-danger deletebtn" th:attr="delete_url=@{/employeeManager/delemp/}+${empl.id}" >删除</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <form method="post" id="deleteForm">
+        <input type="hidden" name="_method" value="delete">
+    </form>
+</div>
+<script>
+    $(function () {
+        $(".deletebtn").click(function () {
+            console.log($(this).attr("delete_url"));
+            $("#deleteForm").attr("action",$(this).attr("delete_url")).submit();
+        });
+    });
+</script>
+</body>
+</html>

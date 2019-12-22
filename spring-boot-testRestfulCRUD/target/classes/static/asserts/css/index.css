@@ -1,0 +1,160 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei UI", "微软雅黑", Tahoma, Arial, simsun, "宋体";
+}
+/*左边栏*/
+.aside {
+  width: 180px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background: #2f4050;
+}
+.aside .profile {
+  background-color: #213442;
+  padding-bottom: 15px;
+}
+.aside .profile img {
+  width: 75px;
+  height: 75px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+.aside .profile .text-center {
+  padding: 25px 0 10px;
+}
+.aside .profile .text-center h4 {
+  color: #a9b0c2;
+}
+.aside .menu #menu1 {
+  padding-top: 20px;
+}
+.aside .menu #menu1 li a {
+  margin: 4px 0px;
+  padding: 10px 20px;
+  color: #a9b0c2;
+}
+.aside .menu #menu1 li a i {
+  padding-right: 5px;
+}
+.aside .menu #menu1 li a:hover,
+.aside .menu #menu1 li a:focus,
+.aside .menu #menu1 li a:visited {
+  background-color: #213442;
+}
+/*右边栏*/
+.main {
+  background: #f4f6f8;
+  margin-left: 180px;
+  padding-bottom: 20px;
+  height: 100%;
+}
+.main .header .navbar {
+  background-color: #ffffff;
+}
+.main .header .navbar a {
+  color: #337ab7;
+}
+.main .header .navbar a i {
+  padding-right: 8px;
+}
+.main .header .navbar .navbar-brand {
+  color: #55A958;
+}
+.main .body #DashBoard .cell {
+  padding: 15px;
+  color: #FFF;
+  overflow: hidden;
+  border-radius: 4px;
+  line-height: 1.8;
+}
+.main .body #DashBoard .cell i {
+  padding-left: 70px;
+  float: left;
+}
+.main .body #DashBoard .th {
+  background-color: #FC8675;
+}
+.main .body #DashBoard .money {
+  background-color: #5AB6DF;
+}
+.main .body #DashBoard .user {
+  background-color: #65CEA7;
+}
+.main .body #DashBoard .eye {
+  background-color: #EBC85E;
+}
+.main .body .panel {
+  background-color: white;
+  border: 1px solid #e7e7e7;
+}
+.main .body #TeacherManager .panel-footer {
+  padding-bottom: 50px;
+}
+.main .body #TeacherManager .panel-footer .col-md-6 .pull-right {
+  padding-top: 27px;
+}
+.main .body #TeacherManager table {
+  font-size: 16px;
+}
+.main .body #TeacherManager table th {
+  text-align: center;
+}
+.main .body #CategoryManager table {
+  font-size: 16px;
+}
+.main .body #CategoryManager table th {
+  text-align: center;
+}
+.main .body #ClassAdd .info {
+  height: 100px;
+  padding-top: 73px;
+  padding-left: 10px;
+}
+.main .body #ClassAdd .info dt {
+  color: #666666;
+}
+.main .body #ClassAdd .info dd {
+  padding-top: 5px;
+  color: #999999;
+}
+.main .body #ClassAdd .thumb {
+  width: 240px;
+  height: 120px;
+  background-image: url(../images/course.png);
+  background-size: contain;
+  float: left;
+  position: relative;
+}
+.main .body #ClassAdd .forwards {
+  font-size: 14px;
+  color: #333;
+  margin-top: 20px;
+  margin-left: 30px;
+  background-color: #FFF;
+  float: left;
+}
+.main .body #ClassAdd .forwards li a {
+  width: 240px;
+  margin: 4px 0px;
+  padding: 20px 0 22px 30px;
+  color: #444444;
+}
+.main .body #ClassAdd .forwards li a i {
+  padding-right: 5px;
+}
+.main .body #ClassAdd .forwards li a:hover {
+  color: #15c288;
+}
+.main .body #ClassAdd .panel {
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  margin-top: 20px;
+}
+.main .body #ClassAdd .panel .panel-footer .btn {
+  padding: 5px 10px;
+}

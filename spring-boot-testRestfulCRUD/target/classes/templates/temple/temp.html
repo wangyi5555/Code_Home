@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="../../static/asserts/css/bootstrap.min.css" th:href="@{/asserts/css/bootstrap.min.css}">
+<link rel="stylesheet" href="../../static/asserts/css/index.css" th:href="@{/asserts/css/index.css}">
+<script src="../../static/asserts/js/jquery-3.4.1.min.js" th:src="@{/asserts/js/jquery-3.4.1.min.js}"></script>
+<script src="../../static/asserts/js/bootstrap.min.js" th:src="@{/asserts/js/bootstrap.min.js}"></script>
+<body>
+<div class="aside" th:fragment="nav">
+    <h1 th:text="${session.username}" style="color: red">username</h1>
+    <ul class="nav nav-pills nav-stacked">
+        <li th:class="${active=='board'?'active':''}" ><a href="#" th:href="@{/board}">首页</a></li>
+        <li th:class="${active=='employee'?'active':''}"><a href="#" th:href="@{/employeeManager/showempls}">员工管理</a></li>
+    </ul>
+</div>
+</body>
+</html>

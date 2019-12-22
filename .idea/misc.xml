@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/spring_boot_helloworld_quickstrat/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-test/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-web-test1/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-testRestfulCRUD/pom.xml" />
       </list>
     </option>
   </component>

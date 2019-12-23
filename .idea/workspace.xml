@@ -7,12 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2f2462e-034d-46c8-bcca-8aa00b5deee3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-testRestfulCRUD/src/main/java/com/wangyi/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-testRestfulCRUD/src/main/java/com/wangyi/controller/MyExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-testRestfulCRUD/src/main/resources/templates/error/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-testRestfulCRUD/src/main/resources/templates/error/4xx.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-testRestfulCRUD/src/main/resources/templates/error/5xx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-web-test1/src/main/java/com/wangyi/config/MyServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-web-test1/src/main/java/com/wangyi/servlet/MyFliter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-web-test1/src/main/java/com/wangyi/servlet/MyListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-web-test1/src/main/java/com/wangyi/servlet/MyServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/testShiro_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/testShiro_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testShiro/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testShiro/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testShiro/testShiro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testShiro/testShiro.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +58,8 @@
         <option value="properties file" />
         <option value="ymi file" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -161,7 +164,7 @@
       <recent name="H:\CODE\Code_Home\test1\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootTestRestCrudApplication">
+  <component name="RunManager" selected="Spring Boot.SpringBootWebTest1Application">
     <configuration name="SpringBootHelloworldQuickstratApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring_boot_helloworld_quickstrat" />
       <extension name="coverage">
@@ -435,7 +438,7 @@
       <workItem from="1576775747205" duration="1635000" />
       <workItem from="1576988109421" duration="18369000" />
       <workItem from="1577026790731" duration="98000" />
-      <workItem from="1577060153640" duration="1880000" />
+      <workItem from="1577060153640" duration="4595000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1576638482308</created>
@@ -510,10 +513,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1060" y="132" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1575268935381" />
-    <state x="1230" y="232" key="#com.intellij.ide.util.MemberChooser" timestamp="1576766907095">
+    <state x="1230" y="232" key="#com.intellij.ide.util.MemberChooser" timestamp="1577064211467">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1230" y="232" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1576766907095" />
+    <state x="1230" y="232" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1577064211467" />
     <state x="640" y="251" width="640" height="549" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575878295820">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -538,38 +541,38 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1212" y="219" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1575882086311" />
-    <state width="947" height="339" key="GridCell.Tab.0.bottom" timestamp="1577062007041">
+    <state width="947" height="339" key="GridCell.Tab.0.bottom" timestamp="1577064788669">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="947" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1577062007041" />
-    <state width="947" height="339" key="GridCell.Tab.0.center" timestamp="1577062007041">
+    <state width="947" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1577064788669" />
+    <state width="947" height="339" key="GridCell.Tab.0.center" timestamp="1577064788669">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="947" height="339" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1577062007041" />
-    <state width="947" height="339" key="GridCell.Tab.0.left" timestamp="1577062007041">
+    <state width="947" height="339" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1577064788669" />
+    <state width="947" height="339" key="GridCell.Tab.0.left" timestamp="1577064788669">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="947" height="339" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1577062007041" />
-    <state width="947" height="339" key="GridCell.Tab.0.right" timestamp="1577062007041">
+    <state width="947" height="339" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1577064788669" />
+    <state width="947" height="339" key="GridCell.Tab.0.right" timestamp="1577064788669">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="947" height="339" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1577062007041" />
-    <state width="947" height="339" key="GridCell.Tab.1.bottom" timestamp="1577062007041">
+    <state width="947" height="339" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1577064788669" />
+    <state width="947" height="339" key="GridCell.Tab.1.bottom" timestamp="1577064788669">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="947" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1577062007041" />
-    <state width="947" height="339" key="GridCell.Tab.1.center" timestamp="1577062007041">
+    <state width="947" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1577064788669" />
+    <state width="947" height="339" key="GridCell.Tab.1.center" timestamp="1577064788669">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="947" height="339" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1577062007041" />
-    <state width="947" height="339" key="GridCell.Tab.1.left" timestamp="1577062007041">
+    <state width="947" height="339" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1577064788669" />
+    <state width="947" height="339" key="GridCell.Tab.1.left" timestamp="1577064788669">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="947" height="339" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1577062007041" />
-    <state width="947" height="339" key="GridCell.Tab.1.right" timestamp="1577062007041">
+    <state width="947" height="339" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1577064788669" />
+    <state width="947" height="339" key="GridCell.Tab.1.right" timestamp="1577064788669">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="947" height="339" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1577062007041" />
+    <state width="947" height="339" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1577064788669" />
     <state width="916" height="417" key="GridCell.Tab.2.bottom" timestamp="1575362996993">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -706,14 +709,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="751" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1576989842090" />
+    <state x="1022" y="207" width="807" height="632" key="find.popup" timestamp="1577062692962">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1022" y="207" width="807" height="632" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1577062692962" />
     <state x="700" y="155" key="git4idea.branch.GitSmartOperationDialog" timestamp="1576650271554">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="700" y="155" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576650271554" />
-    <state width="426" height="191" key="javadoc.popup.new" timestamp="1577061995930">
+    <state width="426" height="191" key="javadoc.popup.new" timestamp="1577064716023">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="426" height="191" key="javadoc.popup.new/0.0.1920.1050@0.0.1920.1050" timestamp="1577061995930" />
+    <state width="426" height="191" key="javadoc.popup.new/0.0.1920.1050@0.0.1920.1050" timestamp="1577064716023" />
     <state x="669" y="224" key="new project wizard" timestamp="1576988303019">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

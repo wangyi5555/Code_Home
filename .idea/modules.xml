@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-testRestfulCRUD/spring-boot-testRestfulCRUD.iml" filepath="$PROJECT_DIR$/spring-boot-testRestfulCRUD/spring-boot-testRestfulCRUD.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-web-test1/spring-boot-web-test1.iml" filepath="$PROJECT_DIR$/spring-boot-web-test1/spring-boot-web-test1.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_boot_helloworld_quickstrat/spring_boot_helloworld_quickstrat.iml" filepath="$PROJECT_DIR$/spring_boot_helloworld_quickstrat/spring_boot_helloworld_quickstrat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_boot_ssm/spring_boot_ssm.iml" filepath="$PROJECT_DIR$/spring_boot_ssm/spring_boot_ssm.iml" />
       <module fileurl="file://$PROJECT_DIR$/test1/test1.iml" filepath="$PROJECT_DIR$/test1/test1.iml" />
       <module fileurl="file://$PROJECT_DIR$/testJava/testJava.iml" filepath="$PROJECT_DIR$/testJava/testJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/testShiro/testShiro.iml" filepath="$PROJECT_DIR$/testShiro/testShiro.iml" />

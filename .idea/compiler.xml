@@ -11,6 +11,7 @@
         <module name="testShiro" />
         <module name="spring-boot-web-test1" />
         <module name="testJava" />
+        <module name="spring_boot_ssm" />
         <module name="spring-boot-test" />
         <module name="spring_boot_helloworld_quickstrat" />
       </profile>
@@ -23,6 +24,7 @@
       <module name="spring-boot-web-test1" target="1.8" />
       <module name="spring_boot_helloworld" target="1.6" />
       <module name="spring_boot_helloworld_quickstrat" target="1.8" />
+      <module name="spring_boot_ssm" target="1.8" />
       <module name="test1" target="1.7" />
       <module name="testJava" target="1.7" />
       <module name="testShiro" target="1.7" />
@@ -36,6 +38,7 @@
       <module name="spring-boot-web-test" options="-parameters" />
       <module name="spring-boot-web-test1" options="-parameters" />
       <module name="spring_boot_helloworld_quickstrat" options="-parameters" />
+      <module name="spring_boot_ssm" options="-parameters" />
     </option>
   </component>
 </project>

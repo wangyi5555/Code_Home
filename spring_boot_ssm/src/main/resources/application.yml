@@ -1,0 +1,44 @@
+
+spring:
+  datasource:
+    #   数据源基本配置
+    username: root
+    password: WANGYI
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_boot_ssm?serverTimezone=UTC
+    type: com.alibaba.druid.pool.DruidDataSource
+
+#    schema:
+#      - classpath:tb_user.sql
+#    data: data.sql
+#    initialization-mode: always
+
+    #   数据源其他配置
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+#   配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+#    ,wall,log4j
+    filters: stat
+    maxPoolPreparedStatementPerConnectionSize: 20
+    useGlobalDataSourceStat: true
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+
+
+
+
+
+logging:
+  level:
+    com.wangyi.spring_boot_ssm.demo.dao: debug
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  config-location: classpath:mybatis/mybatis-config.xml

@@ -7,7 +7,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2f2462e-034d-46c8-bcca-8aa00b5deee3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_ssm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_ssm/spring_boot_ssm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_ssm/src/main/java/com/wangyi/spring_boot_ssm/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_ssm/src/main/java/com/wangyi/spring_boot_ssm/demo/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_ssm/src/main/java/com/wangyi/spring_boot_ssm/demo/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_ssm/src/main/java/com/wangyi/spring_boot_ssm/demo/dao/TestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_ssm/src/main/java/com/wangyi/spring_boot_ssm/demo/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_ssm/src/main/java/com/wangyi/spring_boot_ssm/demo/services/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_ssm/src/main/java/com/wangyi/spring_boot_ssm/demo/services/impls/TestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_ssm/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_ssm/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_ssm/src/main/resources/mybatis/mapper/TestMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_ssm/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_ssm/src/main/resources/tb_user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_ssm/src/test/java/com/wangyi/spring_boot_ssm/demo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,9 +70,11 @@
         <option value="Spring config xml" />
         <option value="JavaScript File" />
         <option value="properties file" />
-        <option value="ymi file" />
-        <option value="Interface" />
         <option value="HTML File" />
+        <option value="ymi file" />
+        <option value="Mybatis' config xml" />
+        <option value="Mybatis' s mapper xml" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -119,7 +142,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="9" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-testRestfulCRUD/src/main/resources/static/asserts/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring_boot_ssm/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -138,24 +161,6 @@
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.wangyi.pojo" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.wangyi" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="H:\CODE\Code_Home\spring-boot-testRestfulCRUD\src\main\resources\static\asserts\css" />
-      <recent name="H:\CODE\Code_Home\spring-boot-testRestfulCRUD\src\main\resources\static\asserts" />
-      <recent name="H:\CODE\Code_Home\spring-boot-testRestfulCRUD\src\main\resources\static\asserts\js" />
-      <recent name="H:\CODE\Code_Home\spring-boot-web-test1\src\main\resources\static\images" />
-      <recent name="H:\CODE\Code_Home\spring_boot_helloworld_quickstrat\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.wangyi.config" />
-      <recent name="com.wangyi.controller" />
-      <recent name="com.wangyi.shiro.realm" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\CODE\Code_Home\spring-boot-web-test1\src\main\resources\static\asserts" />
       <recent name="H:\CODE\Code_Home\spring-boot-web-test1\src\main\resources\templates" />
@@ -163,18 +168,36 @@
       <recent name="H:\CODE\Code_Home\spring_boot_helloworld_quickstrat\src\main\resources\public" />
       <recent name="H:\CODE\Code_Home\test1\src\main\java" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.wangyi" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\CODE\Code_Home\spring_boot_ssm\src\main\resources" />
+      <recent name="H:\CODE\Code_Home\spring-boot-testRestfulCRUD\src\main\resources\static\asserts\css" />
+      <recent name="H:\CODE\Code_Home\spring-boot-testRestfulCRUD\src\main\resources\static\asserts" />
+      <recent name="H:\CODE\Code_Home\spring-boot-testRestfulCRUD\src\main\resources\static\asserts\js" />
+      <recent name="H:\CODE\Code_Home\spring-boot-web-test1\src\main\resources\static\images" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wangyi.config" />
+      <recent name="com.wangyi.controller" />
+      <recent name="com.wangyi.shiro.realm" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wangyi.pojo" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootWebTest1Application">
-    <configuration name="SpringBootHelloworldQuickstratApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring_boot_helloworld_quickstrat" />
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
+    <configuration name="DemoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_boot_ssm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wangyi.spring_boot_helloworld_quickstrat.*" />
+          <option name="PATTERN" value="com.wangyi.spring_boot_ssm.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wangyi.spring_boot_helloworld_quickstrat" />
-      <option name="MAIN_CLASS_NAME" value="com.wangyi.spring_boot_helloworld_quickstrat.SpringBootHelloworldQuickstratApplicationTests" />
+      <option name="PACKAGE_NAME" value="com.wangyi.spring_boot_ssm.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.wangyi.spring_boot_ssm.demo.DemoApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -209,6 +232,13 @@
       <option name="MAIN_CLASS_NAME" value="com.wangyi.spring_boot_helloworld_quickstrat.SpringBootHelloworldQuickstratApplicationTests" />
       <option name="METHOD_NAME" value="testService" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring_boot_ssm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangyi.spring_boot_ssm.demo.DemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -348,7 +378,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SpringBootHelloworldQuickstratApplicationTests.contextLoads" />
       <item itemvalue="JUnit.SpringBootHelloworldQuickstratApplicationTests.testService" />
       <item itemvalue="JUnit.SpringBootHelloworldQuickstratApplicationTests.testLog" />
       <item itemvalue="Spring Boot.SpringBootHelloworldQuickstratApplication" />
@@ -359,14 +388,16 @@
       <item itemvalue="Spring Boot.HelloWorldMainApp" />
       <item itemvalue="Spring Boot.SpringBootWebTestApplication" />
       <item itemvalue="Tomcat Server.Tomcat 8.0.501" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="JUnit.DemoApplicationTests.contextLoads" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DemoApplicationTests.contextLoads" />
         <item itemvalue="Spring Boot.SpringBootWebTestApplication" />
         <item itemvalue="Spring Boot.HelloWorldMainApp" />
         <item itemvalue="JUnit.SpringBootHelloworldQuickstratApplicationTests.testLog" />
         <item itemvalue="JUnit.SpringBootHelloworldQuickstratApplicationTests.testService" />
-        <item itemvalue="JUnit.SpringBootHelloworldQuickstratApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +470,7 @@
       <workItem from="1576988109421" duration="18369000" />
       <workItem from="1577026790731" duration="98000" />
       <workItem from="1577060153640" duration="4595000" />
-      <workItem from="1578111284195" duration="283000" />
+      <workItem from="1578111284195" duration="3945000" />
     </task>
     <task id="LOCAL-00001" summary="第二次提交">
       <created>1576638482308</created>
@@ -514,10 +545,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1060" y="132" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1575268935381" />
-    <state x="1230" y="232" key="#com.intellij.ide.util.MemberChooser" timestamp="1577064211467">
+    <state x="1230" y="232" key="#com.intellij.ide.util.MemberChooser" timestamp="1578115036325">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1230" y="232" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1577064211467" />
+    <state x="1230" y="232" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1578115036325" />
     <state x="640" y="251" width="640" height="549" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575878295820">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -542,38 +573,38 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1212" y="219" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1575882086311" />
-    <state width="947" height="339" key="GridCell.Tab.0.bottom" timestamp="1577064788669">
+    <state width="1877" height="383" key="GridCell.Tab.0.bottom" timestamp="1578115245049">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="947" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1577064788669" />
-    <state width="947" height="339" key="GridCell.Tab.0.center" timestamp="1577064788669">
+    <state width="1877" height="383" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578115245049" />
+    <state width="1877" height="383" key="GridCell.Tab.0.center" timestamp="1578115245049">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="947" height="339" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1577064788669" />
-    <state width="947" height="339" key="GridCell.Tab.0.left" timestamp="1577064788669">
+    <state width="1877" height="383" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578115245049" />
+    <state width="1877" height="383" key="GridCell.Tab.0.left" timestamp="1578115245049">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="947" height="339" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1577064788669" />
-    <state width="947" height="339" key="GridCell.Tab.0.right" timestamp="1577064788669">
+    <state width="1877" height="383" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578115245049" />
+    <state width="1877" height="383" key="GridCell.Tab.0.right" timestamp="1578115245049">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="947" height="339" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1577064788669" />
-    <state width="947" height="339" key="GridCell.Tab.1.bottom" timestamp="1577064788669">
+    <state width="1877" height="383" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578115245049" />
+    <state width="1877" height="383" key="GridCell.Tab.1.bottom" timestamp="1578115245049">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="947" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1577064788669" />
-    <state width="947" height="339" key="GridCell.Tab.1.center" timestamp="1577064788669">
+    <state width="1877" height="383" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578115245049" />
+    <state width="1877" height="383" key="GridCell.Tab.1.center" timestamp="1578115245049">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="947" height="339" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1577064788669" />
-    <state width="947" height="339" key="GridCell.Tab.1.left" timestamp="1577064788669">
+    <state width="1877" height="383" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578115245049" />
+    <state width="1877" height="383" key="GridCell.Tab.1.left" timestamp="1578115245049">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="947" height="339" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1577064788669" />
-    <state width="947" height="339" key="GridCell.Tab.1.right" timestamp="1577064788669">
+    <state width="1877" height="383" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578115245049" />
+    <state width="1877" height="383" key="GridCell.Tab.1.right" timestamp="1578115245049">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="947" height="339" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1577064788669" />
+    <state width="1877" height="383" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578115245049" />
     <state width="916" height="417" key="GridCell.Tab.2.bottom" timestamp="1575362996993">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -722,26 +753,37 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="700" y="155" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576650271554" />
-    <state width="426" height="191" key="javadoc.popup.new" timestamp="1577064716023">
+    <state width="426" height="172" key="javadoc.popup.new" timestamp="1578115069277">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="426" height="191" key="javadoc.popup.new/0.0.1920.1050@0.0.1920.1050" timestamp="1577064716023" />
-    <state x="669" y="224" key="new project wizard" timestamp="1576988303019">
+    <state width="426" height="172" key="javadoc.popup.new/0.0.1920.1050@0.0.1920.1050" timestamp="1578115069277" />
+    <state x="669" y="224" key="new project wizard" timestamp="1578111743974">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="669" y="224" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1576988303019" />
+    <state x="669" y="224" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1578111743974" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1577061536983">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1577061536983" />
-    <state x="1095" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1577061943087">
+    <state x="1095" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1578112363460">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1095" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1577061943087" />
+    <state x="1095" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1578112363460" />
     <state x="500" y="124" key="spring file set editor" timestamp="1575273006275">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="500" y="124" key="spring file set editor/0.0.1920.1050@0.0.1920.1050" timestamp="1575273006275" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring_boot_ssm/src/test/java/com/wangyi/spring_boot_ssm/demo/DemoApplicationTests.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Code_Home$App.ic" NAME="App Coverage Results" MODIFIED="1573974000712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
